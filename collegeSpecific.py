@@ -79,8 +79,8 @@ def save_to_excel(data, excel_path):
     })
     df.to_excel(excel_path, index=False)
 
-pdf_path = 'C:/Users/Antosh/Downloads/r9/result.pdf'  # Replace with your PDF file path
-excel_path = 'C:/Users/Antosh/Downloads/r9/extracted_data.xlsx'  # Replace with your desired output Excel file path
+pdf_path = 'result.pdf'  # Replace with your PDF file path
+excel_path = 'extracted_data.xlsx'  # Replace with your desired output Excel file path
 
 data = extract_data_from_pdf(pdf_path)
 save_to_excel(data, excel_path)
