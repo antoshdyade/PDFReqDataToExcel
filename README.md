@@ -16,3 +16,7 @@ You can use pdfplumber to extract table data from a specific location in the PDF
 
 __Step 3:__ Write Data to Excel
 Use pandas to write the extracted data to an Excel file.
+
+###Watch Youtube Vidoe on how to execute the script 
+
+[![Video Title](https://img.youtube.com/vi/49VptbtCtBc/0.jpg)](https://www.youtube.com/watch?v=49VptbtCtBc)
