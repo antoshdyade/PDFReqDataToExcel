@@ -1,7 +1,21 @@
+"""
+Code By : Antosh Madappa Dyade, (antosh@dyade.in) under CC BY-SA 4.0 License.
+"""
+
 import pdfplumber
 import pandas as pd
 
 def extract_data_from_pdf(pdf_path):
+  """
+    Extracts PRN, Name, ISE(Obt), ICA(Obt), POE(Obt), and Total(Obt) from a PDF file.
+
+    Args:
+    pdf_path (str): Path to the input PDF file.
+
+    Returns:
+    tuple: Lists containing PRN, Name, ISE(Obt), ICA(Obt), POE(Obt), and Total(Obt).
+    """
+    
     prn_list = []
     name_list = []
     ise_obt_list = []
